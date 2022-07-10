@@ -14,6 +14,7 @@ This is a Engine That Support Shaders!!!!
 
 - [Jonnycat](https://www.youtube.com/channel/UCCY4AxQfQdnLxzXmprp8y_w) - Programmer / porter. 
 - [BushTrain](https://twitter.com/BushtrainP) - Main Programmer 
+- [AngleDTF](https://github.com/AngelDTF/FNF-NewgroundsPort) - Reverse Enginering Week 7
 
 
 ## Build instructions
@@ -44,6 +45,7 @@ You'll also need to install a couple things that involve Gits. To do this, you n
 2. Follow instructions to install the application properly.
 3. Run `haxelib git polymod https://github.com/larsiusprime/polymod.git` to install Polymod.
 4. Run `haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc` to install Discord RPC.
+5. Run `haxelib git hxCodec https://github.com/BushTrain460615/hxCodec` to install HxCodec
 
 At the moment, you can optionally fix some bugs regarding the engine:
 1. A transition bug in songs with zoomed out cameras
@@ -52,6 +54,24 @@ At the moment, you can optionally fix some bugs regarding the engine:
 - Run `haxelib git openfl https://github.com/openfl/openfl` in the terminal/command-prompt.
 
 You should have everything ready for compiling the game! Follow the guide below to continue!
+
+### Building Commands
+release
+```
+lime build mac
+lime build windows
+lime build linux
+lime build android
+lime build ios
+```
+debug
+```
+lime build mac -debug
+lime build windows -debug
+lime build linux -debug
+lime build android -debug
+lime build ios -debug
+```
 
 ### Windows Compiling
 
@@ -70,7 +90,9 @@ here is the link for the [web version](https://developer.apple.com/download/all/
 * haxelib git polymod https://github.com/MasterEric/polymod.git 
 * haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc 
 * haxelib git extension-webm https://github.com/KadeDev/extension-webm 
+* haxelib git hxCodec https://github.com/BushTrain460615/hxCodec
 * lime rebuild extension-webm macos 
+* 
 
 ### Html5 Compiling  
 Just do lime test html5  
