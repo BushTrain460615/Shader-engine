@@ -42,7 +42,8 @@ You'll also need to install a couple things that involve Gits. To do this, you n
 1. Download [git-scm](https://git-scm.com/downloads). Works for Windows, Mac, and Linux, just select your build.
 2. Follow instructions to install the application properly.
 3. Run `haxelib git polymod https://github.com/larsiusprime/polymod.git` to install Polymod.
-4. Run `haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc` to install Discord RPC.
+5. Run `haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc` to install Discord RPC.
+6. Run `haxelib git hxCodec https://github.com/BushTrain460615/hxCodec` to install HxCodec
 
 At the moment, you can optionally fix some bugs regarding the engine:
 1. A transition bug in songs with zoomed out cameras
