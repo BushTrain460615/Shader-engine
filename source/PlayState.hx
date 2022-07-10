@@ -1,9 +1,9 @@
 package;
 
 import animate.FlxAnimate;
-import shaderslmfao.BuildingShaders;
+import Shaders.BuildingEffect;
 import ui.PreferencesMenu;
-import shaderslmfao.ColorSwap;
+import Shaders.ColorSwap;
 #if desktop
 import Discord.DiscordClient;
 #end
