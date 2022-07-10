@@ -1,7 +1,7 @@
  package;  
 
 import flixel.system.FlxAssets.FlxShader as OGSHADER; 
-
+//Thx yoshi engine 
 class FlxShader extends OGSHADER
 { 
 @:noCompletion private override function __initGL():Void
