@@ -92,7 +92,6 @@ here is the link for the [web version](https://developer.apple.com/download/all/
 * haxelib git extension-webm https://github.com/KadeDev/extension-webm 
 * haxelib git hxCodec https://github.com/BushTrain460615/hxCodec
 * lime rebuild extension-webm macos 
-* 
 
 ### Html5 Compiling  
 Just do lime test html5  
