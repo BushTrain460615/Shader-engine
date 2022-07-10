@@ -112,7 +112,7 @@ class PlayState extends MusicBeatState
 	var phillyCityLights:FlxTypedGroup<FlxSprite>;
 	var phillyTrain:FlxSprite;
 	var trainSound:FlxSound;
-	var lightFadeShader:BuildingShaders;
+	var lightFadeShader:BuildingEffect;
 
 	var limo:FlxSprite;
 	var grpLimoDancers:FlxTypedGroup<BackgroundDancer>;
