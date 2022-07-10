@@ -4,8 +4,8 @@ import openfl.display.Sprite;
 import openfl.net.NetStream;
 import openfl.media.Video;
 import ui.PreferencesMenu;
-import shaderslmfao.BuildingShaders;
-import shaderslmfao.ColorSwap;
+import Shaders.BuildingEffect;
+import Shaders.ColorSwap;
 #if desktop
 import Discord.DiscordClient;
 import sys.thread.Thread;
@@ -53,7 +53,7 @@ class TitleState extends MusicBeatState
 	var lastBeat:Int = 0;
 
 	var swagShader:ColorSwap;
-	var alphaShader:BuildingShaders;
+	var alphaShader:BuildingEffect;
 
 	#if web
 	var video:Video;
@@ -67,7 +67,7 @@ class TitleState extends MusicBeatState
 		FlxG.game.focusLostFramerate = 60;
 
 		swagShader = new ColorSwap();
-		alphaShader = new BuildingShaders();
+		alphaShader = new BuildingEffect();
 
 		FlxG.sound.muteKeys = [ZERO];
 

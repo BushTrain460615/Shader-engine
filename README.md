@@ -16,8 +16,8 @@ This is a Engine That Support Shaders!!!!
 - [Jonnycat](https://www.youtube.com/channel/UCCY4AxQfQdnLxzXmprp8y_w) - Programmer / porter. 
 - [BushTrain](https://twitter.com/BushtrainP) - Main Programmer 
 - [AngleDTF](https://github.com/AngelDTF/FNF-NewgroundsPort) - Reverse Enginering Week 7
-
-
+- [nebulazorua](https://github.com/nebulazorua) For Da Shaders!!!
+- [YoshiCrafter29](https://github.com/YoshiCrafter29) For Da Shader Fix!!!
 ## Build instructions
 
 THESE INSTRUCTIONS ARE FOR COMPILING THE GAME'S SOURCE CODE!!!
