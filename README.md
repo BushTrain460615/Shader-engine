@@ -2,8 +2,6 @@
 
 This is the repository for Shader Engine a game in which lies on a singular web page on the internet with no open-source code.
 
-This project is the result of reverse engineering the transpiled JavaScript code into readable Haxe code, which can now be built upon with ease.
-
 # Our goals
 * Shader options with lua shader support!!!
 * hscript support!!!
@@ -14,6 +12,7 @@ This is a Engine That Support Shaders!!!!
 
 - [Jonnycat](https://www.youtube.com/channel/UCCY4AxQfQdnLxzXmprp8y_w) - Programmer / porter. 
 - [BushTrain](https://twitter.com/BushtrainP) - Main Programmer 
+- [AngleDTF](https://github.com/AngelDTF/FNF-NewgroundsPort) - Reverse Enginering Week 7
 
 
 ## Build instructions
