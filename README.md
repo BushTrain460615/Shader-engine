@@ -5,8 +5,8 @@ This is the repository for Shader Engine a game in which lies on a singular web 
 This project is the result of reverse engineering the transpiled JavaScript code into readable Haxe code, which can now be built upon with ease.
 
 # Our goals
-* 1.Shader options with lua shader support!!!
-* 2. hscript support!!!
+* Shader options with lua shader support!!!
+* hscript support!!!
 # Important notes
 This is a Engine That Support Shaders!!!!
 
