@@ -63,6 +63,7 @@ class TitleState extends MusicBeatState
 
 	override public function create():Void
 	{
+
 		FlxG.game.focusLostFramerate = 60;
 
 		swagShader = new ColorSwap();
