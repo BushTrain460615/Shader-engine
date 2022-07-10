@@ -2,6 +2,8 @@
 
 This is the repository for Shader Engine a game in which lies on a singular web page on the internet with no open-source code.
 
+### This was coded on mac so windows build will rarely get tested
+
 # Our goals
 * Shader options with lua shader support!!!
 * hscript support!!!
