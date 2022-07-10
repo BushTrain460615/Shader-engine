@@ -957,6 +957,14 @@ class PlayState extends MusicBeatState
 				case 'stress':
 					stressIntro();
 				#end
+				#if dekstop
+				case 'ugh':
+					playCutscene('ughCutscene.mp4');
+				case 'guns':
+					playCutscene('gunsCutscene.mp4');
+				case 'stress':
+					playCutscene('stressCutscene.mp4');
+				#end
 				default:
 					startCountdown();
 			}

@@ -70,6 +70,11 @@ class Paths
 		return getPath('data/$key.json', TEXT, library);
 	}
 
+	inline static public function video(key:String)
+	{
+		return 'assets/videos/$key';
+	}
+
 	static public function sound(key:String, ?library:String)
 	{
 		return getPath('sounds/$key.$SOUND_EXT', SOUND, library);
@@ -103,11 +108,6 @@ class Paths
 	inline static public function font(key:String)
 	{
 		return 'assets/fonts/$key';
-	}
-
-	inline static public function video(key:String, ?library:String)
-	{
-		return getPath('music/$key.mp4', TEXT, library);
 	}
 
 	inline static public function getSparrowAtlas(key:String, ?library:String)
